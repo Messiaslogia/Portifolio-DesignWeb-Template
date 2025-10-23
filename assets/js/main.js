@@ -221,3 +221,12 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+document.addEventListener('DOMContentLoaded', () =>{
+
+  const letterG = document.getElementById('Easteregg');
+
+  letterG.addEventListener('click', () =>{
+    console.log('Apertei o botão')
+  })
+})
