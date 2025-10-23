@@ -226,7 +226,8 @@ document.addEventListener('DOMContentLoaded', () =>{
 
   const letterG = document.getElementById('Easteregg');
 
-  letterG.addEventListener('click', () =>{
-    console.log('Apertei o botão')
+  letterG.addEventListener('click', (event) =>{
+    event.preventDefault();  // Isso impede o comportamento padrão de navegação
+    console.log('Você clicou na letra G!');
   })
 })
